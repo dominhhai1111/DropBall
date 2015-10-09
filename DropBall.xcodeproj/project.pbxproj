@@ -14,6 +14,7 @@
 		E15D1EC21BC7705D0054DF70 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15D1EC11BC7705D0054DF70 /* Images.xcassets */; };
 		E15D1EC51BC7705D0054DF70 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E15D1EC31BC7705D0054DF70 /* LaunchScreen.xib */; };
 		E15D1ED11BC7705E0054DF70 /* DropBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E15D1ED01BC7705E0054DF70 /* DropBallTests.m */; };
+		E15D1EDC1BC770840054DF70 /* Soccer.png in Resources */ = {isa = PBXBuildFile; fileRef = E15D1EDB1BC770840054DF70 /* Soccer.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		E15D1ECA1BC7705E0054DF70 /* DropBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15D1ECF1BC7705E0054DF70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E15D1ED01BC7705E0054DF70 /* DropBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropBallTests.m; sourceTree = "<group>"; };
+		E15D1EDB1BC770840054DF70 /* Soccer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Soccer.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		E15D1EB31BC7705D0054DF70 /* DropBall */ = {
 			isa = PBXGroup;
 			children = (
+				E15D1EDA1BC770720054DF70 /* Photo */,
 				E15D1EB81BC7705D0054DF70 /* AppDelegate.h */,
 				E15D1EB91BC7705D0054DF70 /* AppDelegate.m */,
 				E15D1EBB1BC7705D0054DF70 /* ViewController.h */,
@@ -117,6 +120,14 @@
 				E15D1ECF1BC7705E0054DF70 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E15D1EDA1BC770720054DF70 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				E15D1EDB1BC770840054DF70 /* Soccer.png */,
+			);
+			name = Photo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E15D1EC01BC7705D0054DF70 /* Main.storyboard in Resources */,
+				E15D1EDC1BC770840054DF70 /* Soccer.png in Resources */,
 				E15D1EC51BC7705D0054DF70 /* LaunchScreen.xib in Resources */,
 				E15D1EC21BC7705D0054DF70 /* Images.xcassets in Resources */,
 			);
@@ -416,6 +428,7 @@
 				E15D1ED61BC7705E0054DF70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E15D1ED71BC7705E0054DF70 /* Build configuration list for PBXNativeTarget "DropBallTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				E15D1ED91BC7705E0054DF70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
